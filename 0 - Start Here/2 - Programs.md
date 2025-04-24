@@ -1,6 +1,6 @@
 # Programs
 
-Programs are computer applications that perform a task. A program can be very simple, such as a calculator, or very complicated, such as a game like Terraria. Programs are written with code, which are instructions that dictate how a program operates. Computers take very simple instructions, so we use programming languages that are easy for humans to understand.
+Programs are computer applications that perform a task. A program can be very simple, such as a calculator, or very complicated, such as a game like Terraria. Programs are written with code, which are instructions that dictate how a program operates. Computers read complex, binary code, so we use programming languages that are easy for humans to understand.
 
 | Key concepts in this chapter
 | -
@@ -21,17 +21,17 @@ Programs are computer applications that perform a task. A program can be very si
 
 ## Programming Languages
 
-<span id="k-languages">**Programming languages** are the interface between the human developer, and the computer's binary instructions</span>. You can technically write machine code, but it's much easier to write in a programming language.
+<span id="k-languages">**Programming languages** are the bridge between the human developer, and the computer's binary instructions</span>. You can technically write machine code, but it's much easier to write in a programming language.
 
 Most programming languages are designed to be simple for humans, called "high-level." High-level languages include Python, C#, and JavaScript, just to name a few. Each of these languages have their own use cases:
 
 - Python is typically used for data processing and calculations.
 - C# is used to write programs, and has a use case in game development.
-- JavaScript is used to provide functionality and interactibility to websites.
+- JavaScript is used to provide functionality and interactivity to websites.
 
-That's not to say that these languages _have_ to be used to for these instances. Online games are often written in JavaScript, and Python is used for many computer applications. It's just that these languages are commonly used for those applications.
+That's not to say that these languages _have_ to be used to for these instances. Web games are often written in JavaScript, and Python is used for many computer applications. It's just that these languages are commonly used for those applications.
 
-There also exists languages that are harder for humans to understand, but easier for computers. These are called "low-level" languages. This includes assembly, which is directly equivalent to machine code.
+There also exists languages that are harder for humans to understand, but easier for computers. These are called "low-level" languages. This includes assembly, which is directly equivalent to the language that computers read.
 
 ### Pseudocode
 
@@ -43,7 +43,7 @@ Take number two
 Add number one and number two
 ```
 
-Everyone images pseudocode differently. What's important is that it is a simplification of real code. The rest of this unit will utilize a variant of pseudocode that acts as a blend between C# and Python. Unit 1 will introduce C#, and hopefully the transition into C# is eased with this pseudocode.
+Everyone images pseudocode differently. What's important is that it is a simplification of real code. The rest of this unit will utilize a variant of pseudocode that acts as a blend between C# and Python. Unit 1 will introduce C#, and hopefully the jump will not be too jarring.
 
 ## Abstraction
 
@@ -51,7 +51,7 @@ Everyone images pseudocode differently. What's important is that it is a simplif
 
 ## Conversion to Machine Code
 
-I've tried to stress the importance of the idea of computers operating on a set of difficult-to-understand instructions. Programming languages fill this gap, but what bridges machine code to languages? There's two answers, and each language opts for one of these ways.
+It's very important to understand that computers operate on a set of difficult-to-understand instructions. Programming languages exist to be abstractions of machine code, but what actually converts programming languages into machine code? There's two answers, and each language opts for one of these ways.
 
 ### Interpretation
 
@@ -63,4 +63,4 @@ I've tried to stress the importance of the idea of computers operating on a set 
 
 ### Both?
 
-Some languages, like C# and Java, actually do both. They are compiled into simple languages that can be quickly interpreted. Chapter 2 will go into more detail about this.
+Some languages, like C# and Java, actually do both. First, the language is compiled into some "intermediate" language, and this is what makes up the executable file. When the file is ran, it is interpreted into machine code almost seamlessly.
